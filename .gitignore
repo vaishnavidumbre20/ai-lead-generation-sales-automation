@@ -1,0 +1,48 @@
+# Top-level gitignore for project
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment files
+*.env
+.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Node
+node_modules/
+.next/
+dist/
+
+# Logs, exports, artifacts
+email_outbox.log
+tests/leads_export.csv
+
+# Databases and binaries
+*.db
+*.sqlite
+*.sqlite3
+kb/kb_chunks.json
+kb/kb_embeddings.npy
+
+# Model files
+models/*.pkl
+*.npy
+*.json
+
+# Packages
+*.zip
+*.tar.gz
+
+# Local env files
+leads-op-main/.env
